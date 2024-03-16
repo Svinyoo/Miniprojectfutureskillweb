@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-03-11T22:12:53.079772" rpa="false" schemaversion="5">
+<suite id="s1" name="Registertestcase" source="c:\Users\User\.vscode\Automate_futureskill\testcases\Registertestcase.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-03-11T22:12:53.422415" level="INFO">Opening browser 'gc' to base url 'https://futureskill.co/'.</msg>
+<arg>${baseUrl}</arg>
+<arg>gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-03-11T22:12:53.422415" elapsed="2.982424"/>
+</kw>
+<test id="s1-t1" name="User wait for fill OTP" line="16">
+<kw name="When User fill OTP" owner="RegisterPage">
+<kw name="Wait until page contains element then verify text" owner="CommonKeywords">
+<msg time="2024-03-11T22:12:56.411905" level="FAIL">Resolving variable '${ระบบได้ส่งรหัส OTP ไปยังเบอร์โทรศัพท์}' failed: Variable '${ระบบได}' not found.</msg>
+<arg>${ระบบได้ส่งรหัส OTP ไปยังเบอร์โทรศัพท์}</arg>
+<status status="FAIL" start="2024-03-11T22:12:56.409806" elapsed="0.004979">Resolving variable '${ระบบได้ส่งรหัส OTP ไปยังเบอร์โทรศัพท์}' failed: Variable '${ระบบได}' not found.</status>
+</kw>
+<status status="FAIL" start="2024-03-11T22:12:56.406810" elapsed="0.008971">Resolving variable '${ระบบได้ส่งรหัส OTP ไปยังเบอร์โทรศัพท์}' failed: Variable '${ระบบได}' not found.</status>
+</kw>
+<status status="FAIL" start="2024-03-11T22:12:56.405825" elapsed="0.010953">Resolving variable '${ระบบได้ส่งรหัส OTP ไปยังเบอร์โทรศัพท์}' failed: Variable '${ระบบได}' not found.</status>
+</test>
+<status status="FAIL" start="2024-03-11T22:12:53.087746" elapsed="3.334018"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Registertestcase">Registertestcase</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-03-11T22:12:53.062829" level="WARN">Error in file 'c:\Users\User\.vscode\Automate_futureskill\testcases\Registertestcase.robot' on line 11: Singular section headers like '**** Test Case ****' are deprecated. Use plural format like '*** Test Cases ***' instead.</msg>
+</errors>
+</robot>
